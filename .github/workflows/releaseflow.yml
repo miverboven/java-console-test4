@@ -65,7 +65,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: deliver-jar
     steps:
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: zipped-project-jar-file
           path: build
